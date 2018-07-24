@@ -16,9 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
+-(void)func{
+    NSLog(@"111");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
