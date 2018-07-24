@@ -15,6 +15,7 @@
 		E7544A87210740F300B109DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7544A86210740F300B109DB /* main.m */; };
 		E7544A91210740F300B109DB /* testGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7544A90210740F300B109DB /* testGitTests.m */; };
 		E7544A9C210740F300B109DB /* testGitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7544A9B210740F300B109DB /* testGitUITests.m */; };
+		E7544AAE2107466E00B109DB /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7544AAD2107466E00B109DB /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E7544A97210740F300B109DB /* testGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7544A9B210740F300B109DB /* testGitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testGitUITests.m; sourceTree = "<group>"; };
 		E7544A9D210740F300B109DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7544AAC2107466E00B109DB /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		E7544AAD2107466E00B109DB /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				E7544A78210740F100B109DB /* AppDelegate.m */,
 				E7544A7A210740F100B109DB /* ViewController.h */,
 				E7544A7B210740F100B109DB /* ViewController.m */,
+				E7544AAC2107466E00B109DB /* TestViewController.h */,
+				E7544AAD2107466E00B109DB /* TestViewController.m */,
 				E7544A7D210740F100B109DB /* Main.storyboard */,
 				E7544A80210740F300B109DB /* Assets.xcassets */,
 				E7544A82210740F300B109DB /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				E7544A7C210740F100B109DB /* ViewController.m in Sources */,
 				E7544A87210740F300B109DB /* main.m in Sources */,
+				E7544AAE2107466E00B109DB /* TestViewController.m in Sources */,
 				E7544A79210740F100B109DB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
