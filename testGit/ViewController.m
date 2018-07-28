@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import <objc/runtime.h>
+
 
 @interface ViewController ()
+@property (nonatomic, copy) void(^blockA)(void);
 
 @end
 
@@ -16,17 +19,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor blueColor];
+
+    NSString *m1 = @"";
+    objc_setAssociatedObject(self, &m1, @"1", OBJC_ASSOCIATION_COPY_NONATOMIC);
+    NSLog(@"value1: %@",objc_getAssociatedObject(self, &m1));
+
+    void(^blockA)(void) = ^{
+        objc_setAssociatedObject(self, &m1, @"2", OBJC_ASSOCIATION_COPY_NONATOMIC);
+        NSLog(@"value2: %@",objc_getAssociatedObject(self, &m1));
+    };
+    
+    blockA();
+    NSLog(@"value3: %@",objc_getAssociatedObject(self, &m1));
+    objc_setAssociatedObject(self, &m1, @"3", OBJC_ASSOCIATION_COPY_NONATOMIC);
+    NSLog(@"value4: %@",objc_getAssociatedObject(self, &m1));
+
 }
 
--(void)func{
-    NSLog(@"111");
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end
