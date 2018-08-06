@@ -21,6 +21,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSLog(@"111");
     NSString *m1 = @"";
     objc_setAssociatedObject(self, &m1, @"1", OBJC_ASSOCIATION_COPY_NONATOMIC);
     NSLog(@"value1: %@",objc_getAssociatedObject(self, &m1));
