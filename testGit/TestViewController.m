@@ -22,7 +22,7 @@
 }
 
 -(void)funcAction{
-    NSLog(@"333");
+    NSLog(@"444");
 }
 
 - (void)didReceiveMemoryWarning {
