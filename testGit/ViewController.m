@@ -10,6 +10,7 @@
 #import <objc/runtime.h>
 #import "Person.h"
 #import "Account.h"
+#import "TestViewController.h"
 
 
 @interface ViewController ()
@@ -50,6 +51,9 @@
 
 }
 
-
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    TestViewController *testVC = [[TestViewController alloc] init];
+    [self presentViewController:testVC animated:YES completion:nil];
+}
 
 @end

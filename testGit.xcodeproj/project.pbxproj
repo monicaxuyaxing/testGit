@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD8E90D9211BE68E00DE8CBB /* UIViewController+vcExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8E90D8211BE68E00DE8CBB /* UIViewController+vcExtension.m */; };
 		E7544A79210740F100B109DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7544A78210740F100B109DB /* AppDelegate.m */; };
 		E7544A7C210740F100B109DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7544A7B210740F100B109DB /* ViewController.m */; };
 		E7544A7F210740F100B109DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7544A7D210740F100B109DB /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD8E90D7211BE68E00DE8CBB /* UIViewController+vcExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+vcExtension.h"; sourceTree = "<group>"; };
+		DD8E90D8211BE68E00DE8CBB /* UIViewController+vcExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+vcExtension.m"; sourceTree = "<group>"; };
 		E7544A74210740F100B109DB /* testGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7544A77210740F100B109DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E7544A78210740F100B109DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 				E7544A82210740F300B109DB /* LaunchScreen.storyboard */,
 				E7544A85210740F300B109DB /* Info.plist */,
 				E7544A86210740F300B109DB /* main.m */,
+				DD8E90D7211BE68E00DE8CBB /* UIViewController+vcExtension.h */,
+				DD8E90D8211BE68E00DE8CBB /* UIViewController+vcExtension.m */,
 			);
 			path = testGit;
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 				E7FB6BE7210C598200F5AEDA /* Person.m in Sources */,
 				E7544A7C210740F100B109DB /* ViewController.m in Sources */,
 				E7544A87210740F300B109DB /* main.m in Sources */,
+				DD8E90D9211BE68E00DE8CBB /* UIViewController+vcExtension.m in Sources */,
 				E7544AAE2107466E00B109DB /* TestViewController.m in Sources */,
 				E7FB6BE4210C597700F5AEDA /* Account.m in Sources */,
 				E7544A79210740F100B109DB /* AppDelegate.m in Sources */,
