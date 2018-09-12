@@ -47,7 +47,7 @@
     [p setObserver];
     //重新对account的balance赋值后会触发回调函数
     //输出: NewBalance: 200.0
-    p.account.balance = 400.0;        
+    p.account.balance = 200.0;        
 
 }
 
