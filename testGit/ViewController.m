@@ -10,6 +10,7 @@
 #import <objc/runtime.h>
 #import "Person.h"
 #import "Account.h"
+#import "TestViewController.h"
 
 
 @interface ViewController ()
@@ -22,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"333");
+    NSLog(@"test2");
     NSString *m1 = @"";
     objc_setAssociatedObject(self, &m1, @"1", OBJC_ASSOCIATION_COPY_NONATOMIC);
     NSLog(@"value1: %@",objc_getAssociatedObject(self, &m1));
@@ -50,6 +51,9 @@
 
 }
 
-
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    TestViewController *testVC = [[TestViewController alloc] init];
+    [self presentViewController:testVC animated:YES completion:nil];
+}
 
 @end
