@@ -25,8 +25,6 @@
 
     NSLog(@"master");
     NSLog(@"test2");
-    NSLog(@"test333");
-
 
 }
 
