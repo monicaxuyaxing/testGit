@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor grayColor];
+    self.view.backgroundColor = [UIColor redColor];
     self.view.backgroundColor = [UIColor grayColor];
     [self funcAction];
 }
@@ -24,7 +24,7 @@
 -(void)funcAction{
 
     NSLog(@"master");
-    NSLog(@"test4");
+    NSLog(@"test9");
 
 }
 
