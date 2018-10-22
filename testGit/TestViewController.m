@@ -24,7 +24,7 @@
 -(void)funcAction{
 
     NSLog(@"master");
-    NSLog(@"test4");
+    NSLog(@"test5");
 
 }
 
