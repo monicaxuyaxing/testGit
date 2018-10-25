@@ -19,6 +19,7 @@
     self.view.backgroundColor = [UIColor redColor];
     self.view.backgroundColor = [UIColor redColor];
 
+
 }
 
 -(void)funcAction{
