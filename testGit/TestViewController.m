@@ -23,6 +23,7 @@
 
 -(void)funcAction{
     NSLog(@"test9");
+    NSLog(@"test110");
 
 }
 
