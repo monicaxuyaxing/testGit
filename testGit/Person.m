@@ -20,7 +20,9 @@
      监听上下文设置为nil，相信很多人在使用的时候都会这么写
      */
     [self.account addObserver:self forKeyPath:@"balance" options:NSKeyValueObservingOptionNew context:nil];
+
     NSLog(@"person100");
+
 }
 
 //监听器回调方法
