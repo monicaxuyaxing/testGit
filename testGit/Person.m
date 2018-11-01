@@ -21,6 +21,7 @@
      */
     [self.account addObserver:self forKeyPath:@"balance" options:NSKeyValueObservingOptionNew context:nil];
     NSLog(@"person113");
+
 }
 
 //监听器回调方法
