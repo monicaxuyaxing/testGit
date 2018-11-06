@@ -11,7 +11,6 @@
 @interface Account : NSObject
 
 @property (nonatomic, copy) NSString *accountNumber;
-@property (nonatomic, assign) double balance;
 @property (nonatomic, assign) double balance3;
 
 @end
