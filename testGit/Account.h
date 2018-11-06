@@ -12,6 +12,5 @@
 
 @property (nonatomic, copy) NSString *accountNumber;
 @property (nonatomic, assign) double balance3;
-@property (nonatomic, assign) double balance4;
 
 @end
