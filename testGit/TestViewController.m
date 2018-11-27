@@ -20,7 +20,7 @@
 }
 
 -(void)funcAction{
-    NSLog(@"test9");
+    NSLog(@"master");
     NSLog(@"test110");
 
 }
